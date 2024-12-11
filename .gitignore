@@ -1,0 +1,6 @@
+# Ignore Docker files
+Dockerfile
+.dockerignore
+
+# Ignore credentials file
+sa-lindungi-credentials.json
