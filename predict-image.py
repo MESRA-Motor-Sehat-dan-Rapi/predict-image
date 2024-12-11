@@ -56,7 +56,7 @@ def index():
             return respond
 
         result = {
-            "spareparts": spareparts[np.argmax(pred_motor)],
+            "Spareparts": spareparts[np.argmax(pred_motor)],
         }
 
         respond = jsonify(result)
